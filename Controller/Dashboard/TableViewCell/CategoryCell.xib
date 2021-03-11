@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="59" id="KGk-i7-Jjw" customClass="CategoryCell" customModule="RajPalaceCustomer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIL-fW-qUC">
+                        <rect key="frame" x="8" y="8" width="304" height="43"/>
+                        <subviews>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNm-sh-LaY" customClass="RoundUIView" customModule="RajPalaceCustomer" customModuleProvider="target">
+                                <rect key="frame" x="8" y="7" width="60" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCd-5b-6YA">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.73333333329999995" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="IwL-Gc-mVP"/>
+                                    <constraint firstAttribute="width" constant="60" id="YAq-Qb-9tP"/>
+                                    <constraint firstAttribute="bottom" secondItem="FCd-5b-6YA" secondAttribute="bottom" id="iG3-w6-psx"/>
+                                    <constraint firstAttribute="trailing" secondItem="FCd-5b-6YA" secondAttribute="trailing" id="nyn-ie-ECd"/>
+                                    <constraint firstItem="FCd-5b-6YA" firstAttribute="leading" secondItem="eNm-sh-LaY" secondAttribute="leading" id="uam-X9-1x2"/>
+                                    <constraint firstItem="FCd-5b-6YA" firstAttribute="top" secondItem="eNm-sh-LaY" secondAttribute="top" id="vMv-YG-QDl"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GLV-Au-koX" customClass="RoundUIView" customModule="RajPalaceCustomer" customModuleProvider="target">
+                                <rect key="frame" x="83" y="7" width="80" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Non Veg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHK-fV-8kl">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.73333333329999995" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="6IP-gT-uuY"/>
+                                    <constraint firstAttribute="width" constant="80" id="6x2-KH-dzf"/>
+                                    <constraint firstItem="hHK-fV-8kl" firstAttribute="leading" secondItem="GLV-Au-koX" secondAttribute="leading" id="dln-Mi-AkR"/>
+                                    <constraint firstAttribute="bottom" secondItem="hHK-fV-8kl" secondAttribute="bottom" id="jff-bO-dtb"/>
+                                    <constraint firstAttribute="trailing" secondItem="hHK-fV-8kl" secondAttribute="trailing" id="mAs-d8-ZBB"/>
+                                    <constraint firstItem="hHK-fV-8kl" firstAttribute="top" secondItem="GLV-Au-koX" secondAttribute="top" id="pbh-yW-Kpr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ixU-gV-z9h" customClass="RoundUIView" customModule="RajPalaceCustomer" customModuleProvider="target">
+                                <rect key="frame" x="178" y="7" width="60" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jA3-2p-Ypv">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.73333333329999995" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jA3-2p-Ypv" secondAttribute="trailing" id="3k9-sY-BcR"/>
+                                    <constraint firstAttribute="height" constant="28" id="ESC-Uy-Xam"/>
+                                    <constraint firstItem="jA3-2p-Ypv" firstAttribute="top" secondItem="ixU-gV-z9h" secondAttribute="top" id="KCa-qB-RY5"/>
+                                    <constraint firstAttribute="bottom" secondItem="jA3-2p-Ypv" secondAttribute="bottom" id="Uv1-NX-BxJ"/>
+                                    <constraint firstAttribute="width" constant="60" id="bsH-ap-bho"/>
+                                    <constraint firstItem="jA3-2p-Ypv" firstAttribute="leading" secondItem="ixU-gV-z9h" secondAttribute="leading" id="im8-lP-TGe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eNm-sh-LaY" firstAttribute="leading" secondItem="mIL-fW-qUC" secondAttribute="leading" constant="8" id="E5c-AO-hrN"/>
+                            <constraint firstItem="ixU-gV-z9h" firstAttribute="leading" secondItem="GLV-Au-koX" secondAttribute="trailing" constant="15" id="NJN-aA-xh1"/>
+                            <constraint firstItem="ixU-gV-z9h" firstAttribute="bottom" secondItem="eNm-sh-LaY" secondAttribute="bottom" id="T3h-ME-vfP"/>
+                            <constraint firstAttribute="bottom" secondItem="eNm-sh-LaY" secondAttribute="bottom" constant="8" id="Tvy-nR-NBV"/>
+                            <constraint firstItem="GLV-Au-koX" firstAttribute="bottom" secondItem="eNm-sh-LaY" secondAttribute="bottom" id="auO-ve-yrJ"/>
+                            <constraint firstItem="GLV-Au-koX" firstAttribute="top" secondItem="eNm-sh-LaY" secondAttribute="top" id="cIK-5E-2EF"/>
+                            <constraint firstItem="ixU-gV-z9h" firstAttribute="top" secondItem="eNm-sh-LaY" secondAttribute="top" id="erN-ei-nnv"/>
+                            <constraint firstItem="eNm-sh-LaY" firstAttribute="top" secondItem="mIL-fW-qUC" secondAttribute="top" constant="7" id="gEc-fk-okU"/>
+                            <constraint firstItem="GLV-Au-koX" firstAttribute="leading" secondItem="eNm-sh-LaY" secondAttribute="trailing" constant="15" id="iIA-Ut-2RD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="mIL-fW-qUC" secondAttribute="bottom" constant="8" id="81f-iH-QSm"/>
+                    <constraint firstItem="mIL-fW-qUC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="HPl-bU-zqf"/>
+                    <constraint firstItem="mIL-fW-qUC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="R7u-84-fiL"/>
+                    <constraint firstAttribute="trailing" secondItem="mIL-fW-qUC" secondAttribute="trailing" constant="8" id="U30-8r-ugQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="131.8840579710145" y="147.65625"/>
+        </tableViewCell>
+    </objects>
+</document>
